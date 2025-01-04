@@ -97,35 +97,9 @@ body {
     text-align: center;
 }
 
-.prayer-form {
-    max-width: 600px;
-    margin: 2rem auto;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.prayer p {
+    text-align: left;
 }
-
-.prayer-form input,
-.prayer-form textarea {
-    padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-.prayer-form button {
-    padding: 1rem;
-    background-color: var(--primary-color);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.prayer-form button:hover {
-    background-color: #2563eb;
-}
-
 /* Footer */
 .footer {
     background-color: var(--text-color);
