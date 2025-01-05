@@ -23,8 +23,8 @@ body {
 /* Header */
 .header {
     height: 60vh;
-    background: url('images/um-lindo-caminho-para-o-ceu-2.png');
-    background-position: center 20%;
+    background: url('images/uma-linda-imagem-de-um-caminho-para-ceu.jpg');
+    background-position: center 40%;
     /* Ajuste a porcentagem conforme necessário */
     background-size: cover;
     display: flex;
