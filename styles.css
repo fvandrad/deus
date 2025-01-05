@@ -90,6 +90,13 @@ body {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+}
+
 /* Prayer Section */
 .prayer {
     padding: 4rem 2rem;
