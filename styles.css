@@ -23,13 +23,16 @@ body {
 /* Header */
 .header {
     height: 60vh;
-    background: linear-gradient(rgba(108, 198, 250, 0.5), rgba(4, 81, 149, 0.5)),
-                url('path-to-your-header-image.jpg') center/cover;
+    background: url('images/um-lindo-caminho-para-o-ceu-2.png');
+    background-position: center 20%;
+    /* Ajuste a porcentagem conforme necessário */
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: var(--text-color);
+    text-shadow: 0 2px 4px rgb(255, 255, 255, 1);
 }
 
 .header-content h1 {
@@ -41,7 +44,7 @@ body {
 .nav {
     background: white;
     padding: 1rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -87,7 +90,7 @@ body {
     background: white;
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
@@ -106,7 +109,9 @@ body {
 
 .prayer p {
     text-align: left;
+    margin: 0 10%;
 }
+
 /* Footer */
 .footer {
     background-color: var(--text-color);
