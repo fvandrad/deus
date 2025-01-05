@@ -31,8 +31,8 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: var(--text-color);
-    text-shadow: 0 2px 4px rgb(255, 255, 255, 1);
+    color: #fff;
+    text-shadow: 0 2px 4px rgb(255, 255, 255, 2);
 }
 
 .header-content h1 {
